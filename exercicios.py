@@ -1,0 +1,13 @@
+
+n1 = int(input("Informe um número! "))
+print()
+print("Número informado foi " + str (n1))
+print()
+print("O dobro do número informado foi " + str (n1 * 2 ) + " e o triplo " + str (n1 * 3))
+print()
+print("lembrando que o número informado foi " + str (n1) + "" + " e o anterior é " + str (n1 - 1 ) + " e o proximo é " + str (n1 + 1 ))
+print()
+n2 = int(input("Vamos, lá informe  outro número! "))
+n3 = int(input("Vai, só mais outro número! "))
+n4 = int(input("juro que é o ultimo número! "))
+print("Você informou " + str (n4) + ", " +  str (n3) + " e " + str (n2) + " e a soma de todos esses número é " + str (n2 + n3 + n4))
