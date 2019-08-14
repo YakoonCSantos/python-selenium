@@ -36,7 +36,7 @@ chrome.back()
 input('Pressione enter para finalizar')
 chrome.close()  
 
-
+"""
 
 
 from selenium import webdriver
@@ -113,26 +113,26 @@ navegador.close()
 
 
 #lib para validar cep
-import pycep_correios
+#import pycep_correios
 
 #>>> endereco = pycep_correios.consultar_cep('37503130')
 #>>> print(endereco)
-{
-    'bairro': 'Santo Antônio',
-    'cep': '37503130',
-    'cidade': 'Itajubá',
-    'end': 'Rua Geraldino Campista',
-    'uf': 'MG',
-    'complemento2': '- até 214/215',
-}
+#{
+#    'bairro': 'Santo Antônio',
+#    'cep': '37503130',
+#    'cidade': 'Itajubá',
+#    'end': 'Rua Geraldino Campista',
+#    'uf': 'MG',
+#    'complemento2': '- até 214/215',
+#}
 
 
-"""
 
-f = open('‪C:\Users\python\Desktop\cadastro.csv', 'r')
-for linha in f:
-  print(linha)
-f.close()
+
+#f = open('‪C:\Users\python\Desktop\cadastro.csv', 'r')
+#for linha in f:
+#  print(linha)
+#f.close()
 
 
 
